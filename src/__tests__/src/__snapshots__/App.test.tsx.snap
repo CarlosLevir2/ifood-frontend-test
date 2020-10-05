@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP It should render App 1`] = `
+<div>
+  <div
+    class="sc-bdnylx itMePl"
+  >
+    <div>
+      <h3
+        class="ant-typography"
+      >
+        Clique no botão abaixo para realizar o login :)
+      </h3>
+      <button
+        class="ant-btn ant-btn-primary ant-btn-lg"
+        type="button"
+      >
+        <span>
+          Fazer login
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
