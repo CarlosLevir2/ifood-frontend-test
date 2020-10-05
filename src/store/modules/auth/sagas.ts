@@ -31,13 +31,13 @@ export function* signInCallback() {
       history.location.search,
     );
 
-    if (error) {
-      throw new Error('');
-    }
-
     const { access_token, expires_in, token_type } = queryString.parse(
       history.location.hash
     );
+
+    if (error || !access_token) {
+      throw new Error('');
+    }
 
     yield put(
       signInSuccess({
